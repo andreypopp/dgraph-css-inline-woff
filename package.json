@@ -1,0 +1,37 @@
+{
+  "name": "dgraph-css-inline-woff",
+  "version": "0.1.0",
+  "description": "Inline WOFF fonts as base64 encoded data uris in CSS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "andreypopp/dgraph-css-inline-woff"
+  },
+  "keywords": [
+    "dgraph",
+    "css-pack",
+    "browserify",
+    "commonjs",
+    "css",
+    "woff",
+    "inline"
+  ],
+  "author": "Andrey Popp <8mayday@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "css": "~1.4.2",
+    "kew": "~0.1.7"
+  },
+  "devDependencies": {
+    "font-awesome": "git+https://github.com/FortAwesome/Font-Awesome.git#4.0.0-wip",
+    "css-pack": "~0.1.6",
+    "semver": "~2.1.0",
+    "mocha": "~1.13.0",
+    "stream-aggregate-promise": "~0.1.1",
+    "dgraph": "~0.2.1",
+    "jshint": "~2.1.10"
+  }
+}
